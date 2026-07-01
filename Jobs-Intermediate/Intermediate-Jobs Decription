@@ -1,0 +1,1 @@
+### In this section we have learned how to read data from one notebook to other notebook directly by creating a parameter and reading it in the other notebook and but creating a parameter and reading it in the other notebook in lakeflow job.Also how to read sql file output and pass it as a parameter to other notebook and vice-versa.

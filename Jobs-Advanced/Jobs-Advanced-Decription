@@ -1,0 +1,3 @@
+#### In advanced section we have learned how to read multiple files from unity catalog volume by passing the file name dynamically from one notebook to other using the lakeflow jobs.In one notebook we have created the filenames as parameter using dbutils.jobs.taskValues.set("file_names", file_names) and in other file we are using to read data and save it in different folder in delta format.
+
+#### We are trying to achive the same by creating a sql query and passing the output of that query using sql.file-name.rows in task parameters and reading it in other notebook to achieve the same.At the end we learned how to create alerts on jobs as well as sql queries and scheduling our lakeflow jobs.
